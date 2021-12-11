@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from objects.job import Job
+from object.job import Job
 from collections import namedtuple
 import matplotlib.pyplot as plt
 
@@ -54,13 +54,13 @@ class Scheduler(object):
                 cnt += 1
 
     def standard_summary_from_block(self):
-        print(f"\nTask{2 if self.tspeed else 1} Solution (Block Perspective) of Team No.30:\n")
+        output = f"\nTask Solution (Block Perspective) of Team No.30:\n\n"
         total_response_time = 0.
         for i in self.jobs:
             finish_time = i.start_time + i.max_duration
             total_response_time += finish_time
-            print(f"Job{i.index} obtains {len(i.cores_to_use)} cores (speed={i.speed:.2f}) "
-                  f"and finishes at time {finish_time:.6f}: ")
+            output += f"Job{i.index} obtains {len(i.cores_to_use)} cores (speed={i.speed:.2f}) "
+            output += f"and finishes at time {finish_time:.6f}: \n"
             for j in range(i.ni):
                 core = self.core_to_host.get(i.allocation[j])
                 if self.tspeed and core.host != i.bloc[j]:
@@ -68,16 +68,17 @@ class Scheduler(object):
                     trans_time = round(trans_time, 2)
                 else:
                     trans_time = None
-                print(f"\tBlock{j}: H{core.host}, C{core.core}, R{i.block_rank[j]} "
-                      f"(trans time={trans_time}, proc time={i.bsize[j] / i.speed:.2f}) ")
-            print()
-        print(f"The maximum finish time: {np.max(self.timelines):.6f}")
-        print(f"The total response time: {total_response_time:.6f}")
+                output += f"\tBlock{j}: H{core.host}, C{core.core}, R{i.block_rank[j]} "
+                output += f"(trans time={trans_time}, proc time={i.bsize[j] / i.speed:.2f}) \n"
+            output += "\n"
+        output += f"The maximum finish time: {np.max(self.timelines):.6f}\n"
+        output += f"The total response time: {total_response_time:.6f}\n"
+        return output
 
     def standard_summary_from_core(self):
         running_time = 0.
         max_timelines = np.max(self.timelines)
-        print(f"\nTask{2 if self.tspeed else 1} Solution (Core Perspective) of Team No.30:\n")
+        output = f"\nTask Solution (Core Perspective) of Team No.30:\n\n"
         flag = [False for _ in range(self.q)]
         for j in range(self.m):
             core = self.core_to_host.get(j)
@@ -87,19 +88,20 @@ class Scheduler(object):
                 cores_finish_time = list()
                 for c in all_cores:
                     cores_finish_time.append(self.tasks.get(c)[-1].r_end)
-                print(f"Host{core.host} finishes at time {np.max(cores_finish_time):.6f}:\n")
+                output += f"Host{core.host} finishes at time {np.max(cores_finish_time):.6f}:\n\n"
                 flag[core.host] = True
-            print(f"\tCore{core.core} has {len(self.tasks.get(j)) + 1} tasks and "
-                  f"finishes at time {self.tasks.get(j)[-1].r_end:.6f}:")
+            output += f"\tCore{core.core} has {len(self.tasks.get(j)) + 1} tasks and "
+            output += f"finishes at time {self.tasks.get(j)[-1].r_end:.6f}:\n"
             for k in self.tasks.get(j):
                 running_time += k.r_end - k.t_start
                 trans_description = f"{k.t_start:.2f} to {k.t_end:.2f}" if k.t_end != k.t_start else f"None"
-                print(f"\t\tJ{k.job:02}, B{k.block:02}, trans time {trans_description}, "
-                      f"proc time {k.t_end:.2f} to {k.r_end:.2f}")
-            print()
-        print(f"\nThe maximum finish time of hosts: {max_timelines:.6f}")
-        print(f"The total efficacious running time: {running_time:.6f}")
-        print(f"Utilization rate: {running_time / self.m / max_timelines:.6f}")
+                output += f"\t\tJ{k.job:02}, B{k.block:02}, trans time {trans_description}, "
+                output += f"proc time {k.t_end:.2f} to {k.r_end:.2f}\n"
+            output += "\n"
+        output += f"\nThe maximum finish time of hosts: {max_timelines:.6f}\n"
+        output += f"The total efficacious running time: {running_time:.6f}\n"
+        output += f"Utilization rate: {running_time / self.m / max_timelines:.6f}\n"
+        return output
 
     def load_jobs(self, jobs):
         for _ in jobs:
@@ -524,6 +526,6 @@ class Scheduler(object):
         ax.legend(loc="best")
         plt.xlabel("Timeline", fontdict=dict(fontsize=16))
         if savefig:
-            plt.savefig(savefig)
+            plt.savefig(savefig, bbox_inches='tight', pad_inches=0.0)
         else:
             plt.show()

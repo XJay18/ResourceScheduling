@@ -1,0 +1,380 @@
+
+Task Solution (Block Perspective) of Team No.30:
+
+Job0 obtains 2 cores (speed=9.50) and finishes at time 34.639158: 
+	Block0: H2, C2, R8 (trans time=0.28, proc time=14.53) 
+	Block1: H2, C2, R9 (trans time=None, proc time=5.79) 
+	Block2: H3, C0, R4 (trans time=0.28, proc time=14.63) 
+
+Job1 obtains 1 cores (speed=20.00) and finishes at time 47.513493: 
+	Block0: H1, C0, R11 (trans time=0.1, proc time=2.55) 
+	Block1: H1, C0, R12 (trans time=0.11, proc time=2.85) 
+	Block2: H1, C0, R13 (trans time=0.1, proc time=2.60) 
+	Block3: H1, C0, R14 (trans time=0.26, proc time=6.45) 
+
+Job2 obtains 4 cores (speed=25.50) and finishes at time 11.469499: 
+	Block0: H3, C1, R2 (trans time=None, proc time=3.37) 
+	Block1: H3, C0, R1 (trans time=None, proc time=3.33) 
+	Block2: H3, C3, R3 (trans time=0.27, proc time=5.22) 
+	Block3: H3, C0, R2 (trans time=None, proc time=2.78) 
+	Block4: H3, C2, R3 (trans time=0.24, proc time=4.67) 
+
+Job3 obtains 4 cores (speed=34.00) and finishes at time 16.095072: 
+	Block0: H0, C0, R2 (trans time=0.18, proc time=2.71) 
+	Block1: H1, C0, R4 (trans time=0.17, proc time=2.53) 
+	Block2: H1, C1, R5 (trans time=0.23, proc time=3.32) 
+	Block3: H0, C0, R3 (trans time=None, proc time=2.32) 
+	Block4: H1, C0, R5 (trans time=None, proc time=2.71) 
+	Block5: H2, C0, R5 (trans time=0.28, proc time=4.09) 
+
+Job4 obtains 7 cores (speed=35.00) and finishes at time 4.200000: 
+	Block0: H2, C2, R0 (trans time=0.23, proc time=3.23) 
+	Block1: H2, C1, R0 (trans time=0.23, proc time=3.29) 
+	Block2: H1, C0, R0 (trans time=0.26, proc time=3.66) 
+	Block3: H0, C0, R0 (trans time=0.29, proc time=4.20) 
+	Block4: H1, C1, R0 (trans time=None, proc time=3.46) 
+	Block5: H3, C0, R0 (trans time=0.19, proc time=2.66) 
+	Block6: H2, C0, R0 (trans time=None, proc time=3.29) 
+
+Job5 obtains 3 cores (speed=54.00) and finishes at time 5.351852: 
+	Block0: H3, C2, R0 (trans time=0.17, proc time=1.57) 
+	Block1: H3, C1, R0 (trans time=0.24, proc time=2.26) 
+	Block2: H3, C1, R1 (trans time=0.2, proc time=1.89) 
+	Block3: H3, C3, R0 (trans time=0.3, proc time=2.74) 
+	Block4: H3, C3, R1 (trans time=None, proc time=1.28) 
+	Block5: H3, C2, R1 (trans time=0.27, proc time=2.54) 
+	Block6: H3, C3, R2 (trans time=0.14, proc time=1.33) 
+	Block7: H3, C2, R2 (trans time=None, proc time=1.24) 
+
+Job6 obtains 1 cores (speed=70.00) and finishes at time 47.977443: 
+	Block0: H3, C0, R5 (trans time=None, proc time=0.80) 
+	Block1: H3, C0, R6 (trans time=None, proc time=1.27) 
+	Block2: H3, C0, R7 (trans time=None, proc time=2.11) 
+	Block3: H3, C0, R8 (trans time=0.21, proc time=1.47) 
+	Block4: H3, C0, R9 (trans time=0.14, proc time=0.99) 
+	Block5: H3, C0, R10 (trans time=0.17, proc time=1.23) 
+	Block6: H3, C0, R11 (trans time=0.11, proc time=0.80) 
+	Block7: H3, C0, R12 (trans time=0.28, proc time=2.01) 
+	Block8: H3, C0, R13 (trans time=0.21, proc time=1.53) 
+
+Job7 obtains 6 cores (speed=60.00) and finishes at time 7.133333: 
+	Block0: H2, C0, R1 (trans time=0.2, proc time=1.63) 
+	Block1: H2, C1, R1 (trans time=0.16, proc time=1.37) 
+	Block2: H2, C2, R1 (trans time=0.15, proc time=1.27) 
+	Block3: H0, C0, R1 (trans time=0.27, proc time=2.22) 
+	Block4: H2, C2, R2 (trans time=0.15, proc time=1.23) 
+	Block5: H2, C1, R2 (trans time=None, proc time=1.22) 
+	Block6: H1, C1, R1 (trans time=0.13, proc time=1.07) 
+	Block7: H2, C0, R2 (trans time=0.14, proc time=1.15) 
+	Block8: H1, C1, R2 (trans time=None, proc time=1.87) 
+	Block9: H1, C0, R1 (trans time=0.24, proc time=2.02) 
+
+Job8 obtains 5 cores (speed=72.00) and finishes at time 10.687778: 
+	Block0: H2, C0, R3 (trans time=0.12, proc time=0.85) 
+	Block1: H1, C0, R2 (trans time=None, proc time=0.75) 
+	Block2: H2, C1, R3 (trans time=0.25, proc time=1.74) 
+	Block3: H2, C0, R4 (trans time=0.26, proc time=1.82) 
+	Block4: H2, C2, R3 (trans time=None, proc time=0.69) 
+	Block5: H1, C0, R3 (trans time=0.29, proc time=2.03) 
+	Block6: H1, C1, R3 (trans time=0.27, proc time=1.86) 
+	Block7: H2, C2, R4 (trans time=0.21, proc time=1.44) 
+	Block8: H1, C1, R4 (trans time=0.11, proc time=0.75) 
+	Block9: H2, C1, R4 (trans time=0.14, proc time=0.99) 
+	Block10: H2, C2, R5 (trans time=0.15, proc time=1.06) 
+
+Job9 obtains 2 cores (speed=95.00) and finishes at time 30.473129: 
+	Block0: H2, C0, R10 (trans time=0.14, proc time=0.75) 
+	Block1: H1, C1, R10 (trans time=None, proc time=0.89) 
+	Block2: H1, C1, R11 (trans time=None, proc time=1.01) 
+	Block3: H1, C1, R12 (trans time=0.21, proc time=1.12) 
+	Block4: H2, C0, R11 (trans time=0.19, proc time=0.99) 
+	Block5: H1, C1, R13 (trans time=None, proc time=1.14) 
+	Block6: H2, C0, R12 (trans time=None, proc time=1.58) 
+	Block7: H2, C0, R13 (trans time=0.17, proc time=0.89) 
+	Block8: H2, C0, R14 (trans time=None, proc time=1.08) 
+	Block9: H2, C0, R15 (trans time=0.1, proc time=0.53) 
+	Block10: H1, C1, R14 (trans time=0.18, proc time=0.97) 
+	Block11: H1, C1, R15 (trans time=0.12, proc time=0.62) 
+
+Job10 obtains 2 cores (speed=14.25) and finishes at time 50.552938: 
+	Block0: H3, C1, R3 (trans time=0.21, proc time=7.51) 
+	Block1: H3, C2, R4 (trans time=0.16, proc time=5.47) 
+	Block2: H3, C2, R5 (trans time=0.28, proc time=9.75) 
+	Block3: H3, C1, R4 (trans time=0.24, proc time=8.28) 
+	Block4: H3, C1, R5 (trans time=0.15, proc time=5.33) 
+	Block5: H3, C2, R6 (trans time=0.2, proc time=7.09) 
+	Block6: H3, C1, R6 (trans time=0.16, proc time=5.54) 
+	Block7: H3, C1, R7 (trans time=0.18, proc time=6.39) 
+	Block8: H3, C2, R7 (trans time=None, proc time=6.32) 
+	Block9: H3, C1, R8 (trans time=None, proc time=4.77) 
+	Block10: H3, C2, R8 (trans time=0.14, proc time=4.84) 
+	Block11: H3, C2, R9 (trans time=0.13, proc time=4.70) 
+
+Job11 obtains 2 cores (speed=23.75) and finishes at time 38.700526: 
+	Block0: H2, C1, R7 (trans time=0.19, proc time=4.04) 
+	Block1: H3, C3, R4 (trans time=0.29, proc time=6.19) 
+	Block2: H3, C3, R5 (trans time=0.22, proc time=4.67) 
+	Block3: H3, C3, R6 (trans time=0.15, proc time=3.20) 
+	Block4: H3, C3, R7 (trans time=None, proc time=2.82) 
+	Block5: H3, C3, R8 (trans time=0.13, proc time=2.74) 
+	Block6: H3, C3, R9 (trans time=0.19, proc time=4.04) 
+	Block7: H2, C1, R8 (trans time=0.15, proc time=3.07) 
+	Block8: H2, C1, R9 (trans time=None, proc time=5.22) 
+	Block9: H2, C1, R10 (trans time=0.13, proc time=2.74) 
+	Block10: H2, C1, R11 (trans time=None, proc time=6.02) 
+
+Job12 obtains 2 cores (speed=33.25) and finishes at time 32.485493: 
+	Block0: H1, C0, R6 (trans time=0.3, proc time=4.45) 
+	Block1: H0, C0, R4 (trans time=0.26, proc time=3.88) 
+	Block2: H0, C0, R5 (trans time=0.21, proc time=3.10) 
+	Block3: H0, C0, R6 (trans time=0.12, proc time=1.74) 
+	Block4: H1, C0, R7 (trans time=0.12, proc time=1.74) 
+	Block5: H1, C0, R8 (trans time=None, proc time=3.19) 
+	Block6: H0, C0, R7 (trans time=0.18, proc time=2.71) 
+	Block7: H0, C0, R8 (trans time=0.26, proc time=3.94) 
+	Block8: H1, C0, R9 (trans time=0.22, proc time=3.37) 
+	Block9: H1, C0, R10 (trans time=None, proc time=1.89) 
+
+Job13 obtains 1 cores (speed=45.00) and finishes at time 54.695493: 
+	Block0: H0, C0, R9 (trans time=0.14, proc time=1.53) 
+	Block1: H0, C0, R10 (trans time=None, proc time=2.93) 
+	Block2: H0, C0, R11 (trans time=0.29, proc time=3.20) 
+	Block3: H0, C0, R12 (trans time=0.28, proc time=3.07) 
+	Block4: H0, C0, R13 (trans time=0.13, proc time=1.47) 
+	Block5: H0, C0, R14 (trans time=None, proc time=2.20) 
+	Block6: H0, C0, R15 (trans time=0.18, proc time=2.00) 
+	Block7: H0, C0, R16 (trans time=0.24, proc time=2.64) 
+	Block8: H0, C0, R17 (trans time=0.16, proc time=1.76) 
+
+Job14 obtains 2 cores (speed=52.25) and finishes at time 24.052077: 
+	Block0: H2, C0, R6 (trans time=0.14, proc time=1.30) 
+	Block1: H2, C0, R7 (trans time=0.2, proc time=1.88) 
+	Block2: H1, C1, R6 (trans time=None, proc time=1.13) 
+	Block3: H1, C1, R7 (trans time=0.16, proc time=1.55) 
+	Block4: H1, C1, R8 (trans time=0.22, proc time=2.09) 
+	Block5: H2, C0, R8 (trans time=0.12, proc time=1.17) 
+	Block6: H2, C0, R9 (trans time=0.3, proc time=2.83) 
+	Block7: H1, C1, R9 (trans time=0.27, proc time=2.55) 
+
+Job15 obtains 1 cores (speed=65.00) and finishes at time 47.608081: 
+	Block0: H2, C2, R10 (trans time=0.25, proc time=1.91) 
+	Block1: H2, C2, R11 (trans time=0.28, proc time=2.15) 
+	Block2: H2, C2, R12 (trans time=0.25, proc time=1.94) 
+	Block3: H2, C2, R13 (trans time=0.17, proc time=1.31) 
+	Block4: H2, C2, R14 (trans time=0.17, proc time=1.32) 
+	Block5: H2, C2, R15 (trans time=0.15, proc time=1.15) 
+	Block6: H2, C2, R16 (trans time=0.22, proc time=1.69) 
+
+Job16 obtains 2 cores (speed=71.25) and finishes at time 36.101445: 
+	Block0: H1, C1, R16 (trans time=0.21, proc time=1.47) 
+	Block1: H2, C0, R16 (trans time=None, proc time=1.59) 
+	Block2: H2, C0, R17 (trans time=0.12, proc time=0.87) 
+	Block3: H1, C1, R17 (trans time=0.25, proc time=1.74) 
+	Block4: H2, C0, R18 (trans time=0.28, proc time=1.94) 
+	Block5: H1, C1, R18 (trans time=0.24, proc time=1.71) 
+
+Job17 obtains 3 cores (speed=76.50) and finishes at time 14.047368: 
+	Block0: H3, C0, R3 (trans time=0.28, proc time=1.86) 
+	Block1: H2, C1, R5 (trans time=0.15, proc time=0.95) 
+	Block2: H2, C1, R6 (trans time=None, proc time=1.08) 
+	Block3: H2, C2, R6 (trans time=None, proc time=0.78) 
+	Block4: H2, C2, R7 (trans time=0.24, proc time=1.56) 
+
+Job18 obtains 1 cores (speed=95.00) and finishes at time 40.641971: 
+	Block0: H2, C0, R19 (trans time=None, proc time=1.02) 
+	Block1: H2, C0, R20 (trans time=None, proc time=1.45) 
+	Block2: H2, C0, R21 (trans time=0.11, proc time=0.58) 
+	Block3: H2, C0, R22 (trans time=0.22, proc time=1.16) 
+
+Job19 obtains 1 cores (speed=49.00) and finishes at time 42.706751: 
+	Block0: H1, C1, R19 (trans time=0.24, proc time=2.43) 
+	Block1: H1, C1, R20 (trans time=None, proc time=2.80) 
+	Block2: H1, C1, R21 (trans time=0.1, proc time=1.04) 
+
+The maximum finish time: 54.695493
+The total response time: 597.132900
+
+Task Solution (Core Perspective) of Team No.30:
+
+Host0 finishes at time 54.695493:
+
+	Core0 has 19 tasks and finishes at time 54.695493:
+		J04, B03, trans time 0.00 to 0.29, proc time 0.29 to 4.49
+		J07, B03, trans time 4.20 to 4.47, proc time 4.47 to 6.68
+		J03, B00, trans time 10.69 to 10.87, proc time 10.87 to 13.58
+		J03, B03, trans time None, proc time 13.58 to 15.90
+		J12, B01, trans time 16.10 to 16.35, proc time 16.35 to 20.23
+		J12, B02, trans time 20.23 to 20.44, proc time 20.44 to 23.54
+		J12, B03, trans time 23.54 to 23.65, proc time 23.65 to 25.40
+		J12, B06, trans time 25.40 to 25.58, proc time 25.58 to 28.28
+		J12, B07, trans time 28.28 to 28.55, proc time 28.55 to 32.49
+		J13, B00, trans time 32.49 to 32.62, proc time 32.62 to 34.16
+		J13, B01, trans time None, proc time 34.16 to 37.09
+		J13, B02, trans time 37.09 to 37.38, proc time 37.38 to 40.58
+		J13, B03, trans time 40.58 to 40.85, proc time 40.85 to 43.92
+		J13, B04, trans time 43.92 to 44.05, proc time 44.05 to 45.52
+		J13, B05, trans time None, proc time 45.52 to 47.72
+		J13, B06, trans time 47.72 to 47.90, proc time 47.90 to 49.90
+		J13, B07, trans time 49.90 to 50.14, proc time 50.14 to 52.78
+		J13, B08, trans time 52.78 to 52.94, proc time 52.94 to 54.70
+
+Host1 finishes at time 47.513493:
+
+	Core0 has 16 tasks and finishes at time 47.513493:
+		J04, B02, trans time 0.00 to 0.26, proc time 0.26 to 3.91
+		J07, B09, trans time 4.20 to 4.44, proc time 4.44 to 6.46
+		J08, B01, trans time None, proc time 7.13 to 7.88
+		J08, B05, trans time 7.88 to 8.18, proc time 8.18 to 10.20
+		J03, B01, trans time 10.69 to 10.86, proc time 10.86 to 13.39
+		J03, B04, trans time None, proc time 13.39 to 16.10
+		J12, B00, trans time 16.10 to 16.39, proc time 16.39 to 20.84
+		J12, B04, trans time 20.84 to 20.96, proc time 20.96 to 22.70
+		J12, B05, trans time None, proc time 22.70 to 25.89
+		J12, B08, trans time 25.89 to 26.11, proc time 26.11 to 29.48
+		J12, B09, trans time None, proc time 29.48 to 31.38
+		J01, B00, trans time 32.49 to 32.59, proc time 32.59 to 35.14
+		J01, B01, trans time 35.14 to 35.25, proc time 35.25 to 38.10
+		J01, B02, trans time 38.10 to 38.21, proc time 38.21 to 40.81
+		J01, B03, trans time 40.81 to 41.06, proc time 41.06 to 47.51
+
+	Core1 has 23 tasks and finishes at time 42.706751:
+		J04, B04, trans time None, proc time 0.00 to 3.46
+		J07, B06, trans time 4.20 to 4.33, proc time 4.33 to 5.39
+		J07, B08, trans time None, proc time 5.39 to 7.26
+		J08, B06, trans time 7.13 to 7.40, proc time 7.40 to 9.26
+		J08, B08, trans time 9.26 to 9.37, proc time 9.37 to 10.12
+		J03, B02, trans time 10.69 to 10.91, proc time 10.91 to 14.24
+		J14, B02, trans time None, proc time 16.10 to 17.22
+		J14, B03, trans time 17.22 to 17.39, proc time 17.39 to 18.94
+		J14, B04, trans time 18.94 to 19.15, proc time 19.15 to 21.24
+		J14, B07, trans time 21.24 to 21.51, proc time 21.51 to 24.05
+		J09, B01, trans time None, proc time 24.05 to 24.95
+		J09, B02, trans time None, proc time 24.95 to 25.96
+		J09, B03, trans time 25.96 to 26.17, proc time 26.17 to 27.29
+		J09, B05, trans time None, proc time 27.29 to 28.42
+		J09, B10, trans time 28.42 to 28.61, proc time 28.61 to 29.57
+		J09, B11, trans time 29.57 to 29.69, proc time 29.69 to 30.31
+		J16, B00, trans time 30.47 to 30.68, proc time 30.68 to 32.16
+		J16, B03, trans time 32.16 to 32.40, proc time 32.40 to 34.15
+		J16, B05, trans time 34.15 to 34.39, proc time 34.39 to 36.10
+		J19, B00, trans time 36.10 to 36.34, proc time 36.34 to 38.77
+		J19, B01, trans time None, proc time 38.77 to 41.56
+		J19, B02, trans time 41.56 to 41.67, proc time 41.67 to 42.71
+
+Host2 finishes at time 47.608081:
+
+	Core0 has 24 tasks and finishes at time 40.641971:
+		J04, B06, trans time None, proc time 0.00 to 3.29
+		J07, B00, trans time 4.20 to 4.40, proc time 4.40 to 6.03
+		J07, B07, trans time 6.03 to 6.17, proc time 6.17 to 7.32
+		J08, B00, trans time 7.13 to 7.26, proc time 7.26 to 8.10
+		J08, B03, trans time 8.10 to 8.36, proc time 8.36 to 10.18
+		J03, B05, trans time 10.69 to 10.97, proc time 10.97 to 15.05
+		J14, B00, trans time 16.10 to 16.23, proc time 16.23 to 17.53
+		J14, B01, trans time 17.53 to 17.73, proc time 17.73 to 19.60
+		J14, B05, trans time 19.60 to 19.73, proc time 19.73 to 20.89
+		J14, B06, trans time 20.89 to 21.19, proc time 21.19 to 24.02
+		J09, B00, trans time 24.05 to 24.19, proc time 24.19 to 24.94
+		J09, B04, trans time 24.94 to 25.13, proc time 25.13 to 26.12
+		J09, B06, trans time None, proc time 26.12 to 27.70
+		J09, B07, trans time 27.70 to 27.87, proc time 27.87 to 28.76
+		J09, B08, trans time None, proc time 28.76 to 29.85
+		J09, B09, trans time 29.85 to 29.95, proc time 29.95 to 30.47
+		J16, B01, trans time None, proc time 30.47 to 32.06
+		J16, B02, trans time 32.06 to 32.18, proc time 32.18 to 33.05
+		J16, B04, trans time 33.05 to 33.33, proc time 33.33 to 35.27
+		J18, B00, trans time None, proc time 36.10 to 37.12
+		J18, B01, trans time None, proc time 37.12 to 38.58
+		J18, B02, trans time 38.58 to 38.69, proc time 38.69 to 39.26
+		J18, B03, trans time 39.26 to 39.48, proc time 39.48 to 40.64
+
+	Core1 has 13 tasks and finishes at time 35.610105:
+		J04, B01, trans time 0.00 to 0.23, proc time 0.23 to 3.52
+		J07, B01, trans time 4.20 to 4.36, proc time 4.36 to 5.73
+		J07, B05, trans time None, proc time 5.73 to 6.95
+		J08, B02, trans time 7.13 to 7.38, proc time 7.38 to 9.12
+		J08, B09, trans time 9.12 to 9.26, proc time 9.26 to 10.25
+		J17, B01, trans time 11.47 to 11.62, proc time 11.62 to 12.57
+		J17, B02, trans time None, proc time 12.57 to 13.65
+		J11, B00, trans time 14.05 to 14.24, proc time 14.24 to 18.28
+		J11, B07, trans time 18.28 to 18.43, proc time 18.43 to 21.50
+		J11, B08, trans time None, proc time 21.50 to 26.72
+		J11, B09, trans time 26.72 to 26.85, proc time 26.85 to 29.59
+		J11, B10, trans time None, proc time 29.59 to 35.61
+
+	Core2 has 18 tasks and finishes at time 47.608081:
+		J04, B00, trans time 0.00 to 0.23, proc time 0.23 to 3.45
+		J07, B02, trans time 4.20 to 4.35, proc time 4.35 to 5.62
+		J07, B04, trans time 5.62 to 5.77, proc time 5.77 to 7.00
+		J08, B04, trans time None, proc time 7.13 to 7.83
+		J08, B07, trans time 7.83 to 8.04, proc time 8.04 to 9.48
+		J08, B10, trans time 9.48 to 9.63, proc time 9.63 to 10.69
+		J17, B03, trans time None, proc time 11.47 to 12.25
+		J17, B04, trans time 12.25 to 12.49, proc time 12.49 to 14.05
+		J00, B00, trans time 14.05 to 14.32, proc time 14.32 to 28.85
+		J00, B01, trans time None, proc time 28.85 to 34.64
+		J15, B00, trans time 34.64 to 34.89, proc time 34.89 to 36.79
+		J15, B01, trans time 36.79 to 37.07, proc time 37.07 to 39.23
+		J15, B02, trans time 39.23 to 39.48, proc time 39.48 to 41.42
+		J15, B03, trans time 41.42 to 41.59, proc time 41.59 to 42.90
+		J15, B04, trans time 42.90 to 43.07, proc time 43.07 to 44.39
+		J15, B05, trans time 44.39 to 44.54, proc time 44.54 to 45.70
+		J15, B06, trans time 45.70 to 45.92, proc time 45.92 to 47.61
+
+Host3 finishes at time 50.552938:
+
+	Core0 has 15 tasks and finishes at time 47.977443:
+		J04, B05, trans time 0.00 to 0.19, proc time 0.19 to 2.84
+		J02, B01, trans time None, proc time 5.35 to 8.69
+		J02, B03, trans time None, proc time 8.69 to 11.47
+		J17, B00, trans time 11.47 to 11.75, proc time 11.75 to 13.61
+		J00, B02, trans time 14.05 to 14.33, proc time 14.33 to 28.96
+		J06, B00, trans time None, proc time 34.64 to 35.44
+		J06, B01, trans time None, proc time 35.44 to 36.71
+		J06, B02, trans time None, proc time 36.71 to 38.82
+		J06, B03, trans time 38.82 to 39.03, proc time 39.03 to 40.50
+		J06, B04, trans time 40.50 to 40.64, proc time 40.64 to 41.63
+		J06, B05, trans time 41.63 to 41.80, proc time 41.80 to 43.03
+		J06, B06, trans time 43.03 to 43.14, proc time 43.14 to 43.94
+		J06, B07, trans time 43.94 to 44.22, proc time 44.22 to 46.23
+		J06, B08, trans time 46.23 to 46.45, proc time 46.45 to 47.98
+
+	Core1 has 10 tasks and finishes at time 50.236060:
+		J05, B01, trans time 0.00 to 0.24, proc time 0.24 to 2.50
+		J05, B02, trans time 2.50 to 2.71, proc time 2.71 to 4.60
+		J02, B00, trans time None, proc time 5.35 to 8.72
+		J10, B00, trans time 11.47 to 11.68, proc time 11.68 to 19.19
+		J10, B03, trans time 19.19 to 19.43, proc time 19.43 to 27.71
+		J10, B04, trans time 27.71 to 27.86, proc time 27.86 to 33.19
+		J10, B06, trans time 33.19 to 33.35, proc time 33.35 to 38.90
+		J10, B07, trans time 38.90 to 39.08, proc time 39.08 to 45.46
+		J10, B09, trans time None, proc time 45.46 to 50.24
+
+	Core2 has 11 tasks and finishes at time 50.552938:
+		J05, B00, trans time 0.00 to 0.17, proc time 0.17 to 1.74
+		J05, B05, trans time 1.74 to 2.02, proc time 2.02 to 4.56
+		J05, B07, trans time None, proc time 4.56 to 5.80
+		J02, B04, trans time 5.35 to 5.59, proc time 5.59 to 10.26
+		J10, B01, trans time 11.47 to 11.63, proc time 11.63 to 17.10
+		J10, B02, trans time 17.10 to 17.38, proc time 17.38 to 27.13
+		J10, B05, trans time 27.13 to 27.33, proc time 27.33 to 34.42
+		J10, B08, trans time None, proc time 34.42 to 40.74
+		J10, B10, trans time 40.74 to 40.88, proc time 40.88 to 45.72
+		J10, B11, trans time 45.72 to 45.85, proc time 45.85 to 50.55
+
+	Core3 has 11 tasks and finishes at time 38.700526:
+		J05, B03, trans time 0.00 to 0.30, proc time 0.30 to 3.04
+		J05, B04, trans time None, proc time 3.04 to 4.31
+		J05, B06, trans time 4.31 to 4.46, proc time 4.46 to 5.79
+		J02, B02, trans time 5.35 to 5.62, proc time 5.62 to 10.83
+		J11, B01, trans time 14.05 to 14.34, proc time 14.34 to 20.53
+		J11, B02, trans time 20.53 to 20.75, proc time 20.75 to 25.43
+		J11, B03, trans time 25.43 to 25.58, proc time 25.58 to 28.78
+		J11, B04, trans time None, proc time 28.78 to 31.60
+		J11, B05, trans time 31.60 to 31.73, proc time 31.73 to 34.47
+		J11, B06, trans time 34.47 to 34.66, proc time 34.66 to 38.70
+
+
+The maximum finish time of hosts: 54.695493
+The total efficacious running time: 423.626249
+Utilization rate: 0.774518
